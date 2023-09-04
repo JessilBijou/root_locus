@@ -1,0 +1,9 @@
+clc; 
+clear all; 
+close all; 
+% initialzations 
+num=input('enter the numerator coefficients---->'); 
+den=input('enter the denominator coefficients---->'); 
+%Transfer function 
+sys=tf(num,den); 
+rlocus(sys); 
